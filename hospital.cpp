@@ -1,6 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <cstring>
+#include <cstdio>
+#include <stdio.h>
 using namespace std;
 
 class Patient {
