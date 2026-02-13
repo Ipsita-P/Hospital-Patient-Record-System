@@ -35,7 +35,7 @@ public:
 };
 
 
-// ➤ ADD RECORD
+//  ADD RECORD
 void addRecord() {
     Patient p;
     ofstream file("patients.dat", ios::binary | ios::app);
@@ -48,7 +48,7 @@ void addRecord() {
 }
 
 
-// ➤ VIEW RECORDS
+//  VIEW RECORDS
 void viewRecords() {
     Patient p;
     ifstream file("patients.dat", ios::binary);
@@ -62,7 +62,7 @@ void viewRecords() {
 }
 
 
-// ➤ SEARCH RECORD
+//  SEARCH RECORD
 void searchRecord() {
     int searchID;
     bool found = false;
@@ -89,7 +89,7 @@ void searchRecord() {
 }
 
 
-// ➤ DELETE RECORD
+//  DELETE RECORD
 void deleteRecord() {
     int deleteID;
     bool found = false;
@@ -121,7 +121,7 @@ void deleteRecord() {
 }
 
 
-// ➤ UPDATE RECORD
+//  UPDATE RECORD
 void updateRecord() {
     int updateID;
     bool found = false;
@@ -154,7 +154,7 @@ void updateRecord() {
 }
 
 
-// ➤ MAIN MENU
+//  MAIN MENU
 int main() {
     int choice;
 
